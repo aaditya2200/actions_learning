@@ -14,4 +14,4 @@ jobs:
           cache: maven
       - name: Maven build
         run: |
-          mvn clean install
+          mvn -B test
